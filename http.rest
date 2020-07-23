@@ -1,0 +1,23 @@
+POST http://localhost:5000/api/members/addMember/add
+Content-Type: application/json
+
+{
+    "id": 5,
+    "name": "Mikey",
+    "roles": ["Keyboard", "Backup Vocals"],
+    "age": 58,
+    "active": false,
+}
+
+###
+
+PUT  http://localhost:5000/api/members/3
+Content-Type: application/json
+
+{
+    "id": 3,
+    "name": "George",
+    "roles": ["Lead Guitar", "Rhythm Guitar", "Backup Vocals"],
+    "age": 58,
+    "active": false,
+}
